@@ -8,7 +8,7 @@ const { resourceLimits } = require('worker_threads');
 
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //set views location
 const viewsPath = path.join(__dirname,'../templates/views');
