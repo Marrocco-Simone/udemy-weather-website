@@ -43,7 +43,7 @@ app.get('/help',(req,res) => {
 app.get('/about',(req,res) => {
     res.render('about',{
         title: 'About',
-        text: 'Just goofing around',
+        text: 'This website uses data from mapbox.com and weatherstack.com',
         name: 'Guerriero_3',
     });
 }),
